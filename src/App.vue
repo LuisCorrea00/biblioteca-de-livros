@@ -1,11 +1,17 @@
 <template>
-  <v-app>
-    <p>Projeto do Curso</p>
-  </v-app>
+    <v-app>
+        <router-view />
+        <feedback />
+    </v-app>
 </template>
 
 <script>
+import Feedback from './components/feedback/Feedback.vue';
+
 export default {
-  name: "App",
+    name: 'App',
+    components: {
+        Feedback,
+    },
 };
 </script>
