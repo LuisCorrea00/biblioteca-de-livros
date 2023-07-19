@@ -1,3 +1,3 @@
-# vue-project
+# Biblioteca de livros online
 
-projeto de estante de livros virtual, desenvolvido utilizando Vue.js, a fim de estudos.
+projeto desenvolvido utilizando vue.js 2, a fim de de estudos.
